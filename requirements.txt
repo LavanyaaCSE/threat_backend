@@ -1,4 +1,4 @@
-Flask==2.1.2
+Flask==3.0.3
 flask-cors==5.0.0
 pandas==2.2.3
 pdfplumber==0.11.5
