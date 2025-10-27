@@ -138,6 +138,5 @@ def upload_file():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-# Vercel-specific entry point
 if __name__ == '__main__':
     app.run(debug=True)
